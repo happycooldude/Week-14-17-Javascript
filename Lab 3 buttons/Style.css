@@ -1,0 +1,29 @@
+.bgc{
+    background-color: gray;
+}
+
+#container{
+    width: 750px;
+    height: 150px;
+    background-color: white;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#btn1{
+    background-color: green;
+    margin-top: 35px;
+    padding: 20px 40px 20px 40px;
+}
+
+#btn2{
+    background-color: red;
+    margin-top: 35px;
+    padding: 20px 40px 20px 40px;
+}
+
+#btn3{
+    background-color: blue;
+    margin-top: 35px;
+    padding: 20px 40px 20px 40px;
+}
