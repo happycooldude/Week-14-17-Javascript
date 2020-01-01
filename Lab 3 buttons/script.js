@@ -17,7 +17,6 @@ createButton("btn1", "green", "button 1");
 createButton("btn2", "red", "button 2");
 createButton("btn3", "blue", "button 3");
 
-
 document.getElementById("btn1").onclick = function button1(){
     document.getElementsByClassName("bgc")[0].style.backgroundColor = "green";
 };

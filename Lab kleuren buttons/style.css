@@ -1,0 +1,15 @@
+#container{
+    width: 800px;
+    height: 670px;
+    background-color: gray;
+    margin: 0 auto;
+}
+
+button{
+    width: 130px;
+    height: 80px;
+    margin: 15px;
+    background-color: green;
+    font-family: sans-serif;
+    line-height: 80px;
+}
