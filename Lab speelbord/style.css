@@ -1,6 +1,6 @@
 #container{
     width: 800px;
-    height: 400px;
+    height: 600px;
     margin: 0 auto;
     position: relative;
 }
@@ -28,7 +28,27 @@
     position: absolute;
     bottom: 0px;
     width: 100%;
-    height: 30%;
+    height: 55%;
+    grid-template-columns: 50px,50px,50px,50px,50px;
+    grid-template-rows: 50px,50px,50px,50px,50px;
+    grid-gap: 10px;
+}
+
+#gokken{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+}
+
+#woord{
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 #letter1{
@@ -41,6 +61,7 @@
     border: 10px;
     border-color: black;
     background-color: powderblue;
+    border: 1px solid red;
 }
 
 #letter2{
@@ -53,6 +74,7 @@
     border: 10px;
     border-color: black;
     background-color: powderblue;
+    border: 1px solid red;
 }
 
 #letter3{
@@ -65,6 +87,7 @@
     border: 10px;
     border-color: black;
     background-color: powderblue;
+    border: 1px solid red;
 }
 
 #letter4{
@@ -77,6 +100,7 @@
     border: 10px;
     border-color: black;
     background-color: powderblue;
+    border: 1px solid red;
 }
 
 #letter5{
@@ -89,4 +113,265 @@
     border: 10px;
     border-color: black;
     background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter6{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 160px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter7{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 260px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter8{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 360px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter9{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 460px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter10{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 560px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter11{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 160px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter12{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 260px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter13{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 360px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter14{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 460px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter15{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 560px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter16{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 160px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter17{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 260px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter18{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 360px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter19{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 460px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter20{
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    left: 560px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter21{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 160px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter22{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 260px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter23{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 360px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter24{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 460px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
+}
+
+#letter25{
+    position: absolute;
+    text-align: center;
+    top: 250px;
+    left: 560px;
+    width: 50px;
+    height: 50px;
+    border: 10px;
+    border-color: black;
+    background-color: powderblue;
+    border: 1px solid red;
 }
