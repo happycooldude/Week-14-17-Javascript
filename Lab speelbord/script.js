@@ -127,6 +127,6 @@ function checkanswer() {
         alert("Je mag niet meer gokken. Het goede andwoord was " + input1);
     } 
 
-
+//test
 
 }
