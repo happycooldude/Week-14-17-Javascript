@@ -1,0 +1,42 @@
+#container{
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#speelveld{
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    height: 80%;
+    
+}
+
+#gokcode{
+    position: absolute;
+    top: 0;
+    width: 800px;
+    height: 20%;
+}
+
+#antwoord{
+    background-color: brown;
+    position: absolute;
+    bottom: 0px;
+    left: 17%;
+    width: 65%;
+    height: 80%;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+#titel{
+position: absolute;
+top: 0;
+left: 36%;
+line-height: 0px;
+font-size: 2.5rem;
+color: black;
+font-weight: bolder;
+}

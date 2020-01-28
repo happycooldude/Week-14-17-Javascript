@@ -60,6 +60,7 @@ function createsquares() {
         document.getElementById("letter"+i).style.backgroundColor = "powderblue";
         document.getElementById("letter"+i).style.marginLeft = "50px";
         document.getElementById("letter"+i).style.marginTop = "5px";
+        document.getElementById("letter"+i).style.lineHeight = "3";
     }
 }
 
@@ -126,7 +127,5 @@ function checkanswer() {
         document.getElementById("gokken").innerHTML += "Het goede andwoord was " + input1;
         alert("Je mag niet meer gokken. Het goede andwoord was " + input1);
     } 
-
-//test
 
 }
